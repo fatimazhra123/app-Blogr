@@ -1,5 +1,5 @@
 # app-Blogr
-#Contexte du projet
+# Contexte du projet
 La société MediaAgency est une entreprise de développement de logiciels qui travaille sur différents projets pour aider les entreprises à améliorer leur expérience en ligne. Elle souhaite développer une application de blog pour permettre aux utilisateurs de créer et de partager du contenu.
 
 L'application de blog sera appelée Blogr et permettra aux utilisateurs de créer des articles de blog, de les modifier et de les supprimer. Les utilisateurs pourront également ajouter des commentaires sur les articles des autres utilisateurs pour encourager les discussions et les échanges.
