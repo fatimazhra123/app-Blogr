@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "server": "nodemon server.js",
+    "start": "concurrently \"npm run server\" \"cd ../client && npm start \"",
     "test": " node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose --runInBand --forceExit"
   },
   "author": "",
