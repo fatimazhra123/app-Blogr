@@ -4,7 +4,6 @@ import "./header.css"
 import { User } from "./User"
 import { nav } from "../../assets/data/data"
 import { Link } from "react-router-dom"
-
 export const Header = () => {
    window.addEventListener("scroll", function () {
     const header = this.document.querySelector(".header")

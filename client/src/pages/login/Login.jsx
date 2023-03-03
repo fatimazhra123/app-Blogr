@@ -1,5 +1,6 @@
 import React from "react"
 import "./login.css"
+import { Link } from "react-router-dom"
 import back from "../../assets/images/my-account.jpg"
 
 export const Login = () => {
@@ -21,9 +22,13 @@ export const Login = () => {
             <span>Password *</span>
             <input type='password' required />
             <button className='button'>Log in</button>
+            
+            <Link to='/register' className='link'>
+               Don't have an account ? Register here
+            </Link>
           </form>
         </div>
       </section>
-    </>
+    </> 
   )
 }

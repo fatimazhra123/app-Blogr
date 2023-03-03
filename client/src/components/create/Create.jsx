@@ -19,6 +19,7 @@ export const Create = () => {
             <textarea name='' id='' cols='30' rows='10'></textarea>
 
             <button className='button'>Create Post</button>
+            hffffffffffffffffhffffffffffffffffffffffff
           </form>
         </div>
       </section>
